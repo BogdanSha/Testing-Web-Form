@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Lato&family=Roboto+Mono&display=swap');
+:root{
+  --back_color:#34ab74;
+  --text_col:#394b40;
+  --form:#9cb0a4;
+  --head_foot_col:#00a5e8;
+  --text_font:'Roboto Mono',monospace;
+}
+*{
+  margin:0;
+}
+body{
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  background-color: var(--back_color);
+}
+.head{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height: 4em;
+  background-color: var(--head_foot_col);
+  width:100%;
+}
+.head .title{
+  font-family:var(--text_font);
+}
+.foot{
+  margin-top:auto;
+  min-height:4em;
+  width:100%;
+  background-color: var(--head_foot_col);
+
+}
+.foot ul{
+  display:flex;
+  justify-content: start;
+  align-items:center;
+  
+}
