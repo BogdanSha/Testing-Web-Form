@@ -13,6 +13,8 @@ body{
   height:100vh;
   display:flex;
   flex-direction: column;
+  justify-content: center;
+  align-items:center;
   background-color: var(--back_color);
 }
 .head{
@@ -31,11 +33,21 @@ body{
   min-height:4em;
   width:100%;
   background-color: var(--head_foot_col);
-
-}
-.foot ul{
   display:flex;
+  flex-direction: row;
   justify-content: start;
-  align-items:center;
-  
+  align-items: center;
+  overflow:hidden;
+}
+.foot a {
+  margin-left:10px;
+  text-decoration: none;
+  color:rgba(0,0,0);
+  font-family:var(--text_font);
+  transition:0.8s;
+}
+.foot a:hover{
+  background-color:var(--text_col);
+  padding:22px;
+  transition:0.8s;
 }
