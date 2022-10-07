@@ -51,3 +51,15 @@ body{
   padding:22px;
   transition:0.8s;
 }
+.form{
+  margin:25% 25% 25% 25%;
+  border:solid var(--text_col) 5px;
+  border-radius:15px;
+  padding:15%;
+}
+.form #description{
+  padding:5em;
+}
+.form .desc{
+  margin-top:10px;
+}
