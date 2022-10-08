@@ -24,6 +24,7 @@ body{
   min-height: 4em;
   background-color: var(--head_foot_col);
   width:100%;
+  margin-bottom:5%;
 }
 .head .title{
   font-family:var(--text_font);
@@ -52,14 +53,28 @@ body{
   transition:0.8s;
 }
 .form{
-  margin:25% 25% 25% 25%;
+  margin-left:8%;
+  margin-right:8%;
   border:solid var(--text_col) 5px;
   border-radius:15px;
   padding:15%;
 }
+.form .desc input{
+  padding-top: 5px;
+  padding-right:40px;
+}
 .form #description{
   padding:5em;
+  padding-right:8em;
 }
 .form .desc{
   margin-top:10px;
+  font-family:var(--text_font);
+  font-size:25px;
+  text-align: start;
+}
+.form .desc input::placeholder{
+  font-family:var(--text_font);
+  font-size:18px;
+  text-align:start;
 }
